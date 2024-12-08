@@ -20,16 +20,13 @@ public class Main {
                 System.out.println("Is no six or five");
         }
 
-        funtionTest(true);
+        functionTest(true);
     }
 
-    public static void response(boolean validation){
-        System.out.println("hello world");
-    }
-
-    public static void funtionTest(boolean validation){
-        for(int ind = 0; ind < 25; ind++)
-            System.out.println("Just a funtion test");
+    public static void functionTest(boolean validation){
+        if(validation)
+            for(int ind = 0; ind < 25; ind++)
+              System.out.println("Just a function test");
     }
 }
 
