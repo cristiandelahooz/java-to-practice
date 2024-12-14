@@ -11,6 +11,8 @@ public class Main {
             case 5:
                 System.out.println("Is five");
                 break;
+            case 4:
+                System.out.println("Is for");
             case 6:
                 System.out.println("Is six");
                 break;
@@ -26,5 +28,7 @@ public class Main {
             for(int ind = 0; ind < 25; ind++)
               System.out.println("Just a function test");
     }
+
+
 }
 
